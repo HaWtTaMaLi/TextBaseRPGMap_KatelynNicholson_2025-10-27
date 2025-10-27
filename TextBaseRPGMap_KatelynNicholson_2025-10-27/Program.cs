@@ -37,5 +37,15 @@ namespace TextBaseRPGMap_KatelynNicholson_2025_10_27
         {
 
         }
+
+        static void DisplayMap()
+        {
+
+        }
+
+        static void DisplayMap(int scale)
+        {
+
+        }
     }
 }
