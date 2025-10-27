@@ -28,22 +28,22 @@ namespace TextBaseRPGMap_KatelynNicholson_2025_10_27
         // usage: map[y, x]
 
         // map legend:
-        // ^ = mountain
-        // ` = grass
-        // ~ = water
-        // * = trees
+        // ^ = mountain ▒▒▒▒▒▒▒▒▒▒ .ConsoleColor.Gray;
+        // ` = grass ▓▓▓▓▓▓▓▓▓▓▓▓▓ .ConsoleColor.Green;
+        // ~ = water ░░░░░░░░░░░░░ .ConsoleColor.Blue;
+        // * = trees ⌠⌠⌠⌠⌠⌠⌠⌠⌠⌠⌠⌠⌠ .ConsoleColor.Brown;
 
         static void Main()
         {
 
         }
 
-        static void DisplayMap()
+        static void DisplayMap() //scale 1
         {
 
         }
 
-        static void DisplayMap(int scale)
+        static void DisplayMap(int scale) // scale of 2 and scale of 3 
         {
 
         }
