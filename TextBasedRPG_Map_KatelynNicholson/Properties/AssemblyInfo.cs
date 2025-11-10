@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TextBaseRPGMap_KatelynNicholson_2025-10-27")]
+[assembly: AssemblyTitle("TextBasedRPG_Map_KatelynNicholson")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("NSCC")]
-[assembly: AssemblyProduct("TextBaseRPGMap_KatelynNicholson_2025-10-27")]
-[assembly: AssemblyCopyright("Copyright © NSCC 2025")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("TextBasedRPG_Map_KatelynNicholson")]
+[assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f1908462-73a9-4c51-8579-575698839c86")]
+[assembly: Guid("c3acc243-237f-4c47-ab34-f516f0aa01ad")]
 
 // Version information for an assembly consists of the following four values:
 //

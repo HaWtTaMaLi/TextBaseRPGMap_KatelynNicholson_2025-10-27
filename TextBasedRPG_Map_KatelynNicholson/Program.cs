@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,17 +36,42 @@ namespace TextBaseRPGMap_KatelynNicholson_2025_10_27
 
         static void Main()
         {
-
+            DisplayMap();
         }
 
         static void DisplayMap() //scale 1
         {
+            for (int y = 0; y < map.GetLength(0); y++)
+            {
+                for (int x = 0; x < map.GetLength(1); x++)
+                {
+                    char tile = map[y, x];
 
+                    switch (tile)
+                    {
+                        case '^':
+                            Console.ForegroundColor = ConsoleColor.Gray;
+                            break;
+                        case '~':
+                            Console.ForegroundColor = ConsoleColor.Blue;
+                            break;
+                        case '`':
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            break;
+                        case '*':
+                            Console.ForegroundColor = ConsoleColor.DarkGreen;
+                            break;
+                    }
+                    Console.Write(tile);
+                }
+                //makes new line for y
+                Console.WriteLine();
+            }
         }
 
         static void DisplayMap(int scale) // scale of 2 and scale of 3 
         {
-
+            //conditionals for boarder
         }
     }
 }
