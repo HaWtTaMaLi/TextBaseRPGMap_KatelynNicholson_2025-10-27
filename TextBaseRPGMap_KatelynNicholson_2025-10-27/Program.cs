@@ -36,7 +36,7 @@ namespace TextBaseRPGMap_KatelynNicholson_2025_10_27
 
         static void Main()
         {
-            DisplayMap();
+            Console.Write(DisplayMap);
         }
 
         static void DisplayMap() //scale 1
